@@ -3,7 +3,7 @@ import pygame
 import random
 
 # Initialize Taichi
-ti.init(arch=ti.cpu)
+ti.init(arch=ti.gpu)
 
 # Screen and game parameters
 screen_width, screen_height = 820, 620
